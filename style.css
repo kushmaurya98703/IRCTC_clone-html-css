@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid rgb(185, 179, 179);
+}
+.img{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.img-2{
+    background-image: url("img-1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.img-1{
+    background-image: url("img-2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.login{
+    height: 100vh;
+    width: 50%;
+    background-color: white;
+}
+.navbar{
+    height: 20%;
+    width: 99%;
+}
+.icon{
+    float: left;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-1{
+    background-image: url("logo-1.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width:  60px;
+    margin-right: 5px;
+    
+}
+.logo-2{
+    background-image: url("logo-2.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width:  60px;
+}
+.menu{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.link a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+.link a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.button{
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.button button{
+    margin-left: 18px;
+    font-size: 16px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;   
+}
+.button button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.content{
+    height: 20%;
+    width: 99%;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+    padding-left: 13px;
+}
+.blue{
+    color: blue;
+    padding-left: 13px;
+}
+.ticket{
+    height: 15%;
+    width: 99%;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+.btnn{
+    margin-left: 20px;
+}
+.btn div{
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+.select{
+    height: 15%;
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.from{
+    height: 80px;
+    width: 200px;
+    display: flex;
+}
+.reverse {
+    font-size: 20px;
+}
+.reverse:hover{
+    cursor: pointer;
+    transition: all 0.2s ease 0.2s;
+    transform: scale(1.1);
+}
+.to{
+    height: 80px;
+    width: 200px;
+    display: flex;
+}
+.train-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.reverse{
+    height: 40px;
+    width: 50px;
+}
+.to{
+    height: 80px;
+    width: 200px;
+}
+
+
+.select-1{
+    height: 15%;
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.date{
+    height: 80px;
+    width: 160px;
+    display: flex;
+    margin-right: 5px;
+}
+.cal-icon{
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+}
+.classs{
+    height: 80px;
+    width: 160px;
+    display: flex;
+}
+.classs-icon{
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.tic-status{
+    height: 80px;
+    width: 160px;    
+    display: flex;
+}
+.tic-icon{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;    
+}
+.search-train{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.srch{
+    height: 50px;
+    width: 500px;
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background-color: green;
+    transition: all 0.8s ease-in-out 0.2s;
+}
+.srch:hover{
+    background-color: blue;
+    color: red;
+    cursor: pointer;
+
+}
+
